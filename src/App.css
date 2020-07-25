@@ -1,5 +1,5 @@
 body {
-  background-color: azure;
+  background-color:aliceblue;
 }
 
 .App {
@@ -7,6 +7,7 @@ body {
   min-height: 500px;
   width: 400px;
   margin: 40px;
+  position: absolute;
 }
 
 #todo-form input{
