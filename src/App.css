@@ -1,0 +1,42 @@
+body {
+  background-color: azure;
+}
+
+.App {
+  background-color: cadetblue;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px;
+}
+
+#todo-form input{
+    background-color:black;
+    border:0;
+    width: 200px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+#todo-form input::placeholder{
+    color: aliceblue;
+}
+
+#todo-form input:focus{
+    outline: none;
+}
+
+#todo-form button{
+    height: 50px;
+    width: 80px;
+    border-radius: 5px;
+    border: 0;
+    background-color: brown;
+    cursor: pointer;
+    font-weight: bolder;
+    color: aliceblue;
+}
+

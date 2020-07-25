@@ -1,0 +1,36 @@
+.item{
+    color: aliceblue;
+    width: 300px;
+    background-color: brown;
+    height: 50px;
+    margin: 20px auto;
+    border-radius: 4px;
+}
+
+.item p{
+    padding: 11px;
+    position: relative;
+}
+
+.item p span{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.deleteIcon{
+    margin: 0 5px;
+    font-size: 15px;
+}
+
+.item p input{
+    background-color:transparent;
+    border: 0;
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.item p input:focus{
+    outline: none;
+}
+
